@@ -1,0 +1,13 @@
+servicebus.producers[0]:
+  entity-name: queue1
+  entity-type: queue
+  connection-string: ${AZURE_SERVICEBUS_CONNECTION_STRING_1}
+servicebus.producers[1]:
+  entity-name: queue2
+  entity-type: queue
+  connection-string: ${AZURE_SERVICEBUS_CONNECTION_STRING_2}
+servicebus.processors[0]:
+  entity-name: queue1
+  entity-type: queue
+  connection-string: ${AZURE_SERVICEBUS_CONNECTION_STRING_3}
+
